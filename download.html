@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Download</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: medium;
+	color: #006;
+	font-family: "Times New Roman";
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #0000FF;
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #FF0000;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: right;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 80%;
+	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background-color: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+/* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
+.header {
+	background-color: #6F7D94;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+.content {
+	padding: 10px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #666666;
+	text-align: center;
+	color: #FFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+.moving {
+	position: static;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 50px;
+	background-color: #999999;
+}
+#partner {
+	font-size: x-large;
+}
+.footer p a {
+	color: #333;
+}
+.footer p {
+	color: #333;
+}
+.footer p {
+	color: #000;
+}
+.footer p a {
+	color: #F00;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.part {
+	color: #003366;
+}
+home {
+	color: #333;
+}
+home {
+	font-size: xx-large;
+}
+#home {
+	font-weight: bold;
+}
+#home {
+	font-size: xx-large;
+}
+#home {
+	color: #333;
+}
+.container .entry-content #pg-442-0 #pgc-442-0-0 #panel-442-0-0-1 .textwidget p b {
+	font-size: large;
+}
+.container .entry-content #pg-442-0 #pgc-442-0-0 #panel-442-0-0-1 .textwidget p {
+	font-size: small;
+}
+.container .entry-content #pg-442-0 #pgc-442-0-0 #panel-442-0-0-1 .textwidget b {
+	font-size: medium;
+}
+.container .entry-content #pg-442-0 #pgc-442-0-0 #panel-442-0-0-1 .textwidget {
+	font-size: medium;
+}
+.container .entry-content #pg-442-0 #pgc-442-0-0 #panel-442-0-0-1 .textwidget {
+	color: #069;
+}
+.container .entry-content #pg-442-1 #pgc-442-1-0 #panel-442-1-0-0 .origin-widget.origin-widget-list.origin-widget-list-simple-orange .widget-title {
+	font-size: medium;
+}
+.container .entry-content #pg-442-1 #pgc-442-1-0 #panel-442-1-0-0 .origin-widget.origin-widget-list.origin-widget-list-simple-orange ul li {
+	font-size: small;
+}
+.container .entry-content #pg-442-1 #pgc-442-1-0 #panel-442-1-0-0 .origin-widget.origin-widget-list.origin-widget-list-simple-orange ul li {
+	color: #099;
+}
+.container .entry-content #pg-442-1 #pgc-442-1-1 #panel-442-1-1-0 .origin-widget.origin-widget-list.origin-widget-list-simple-blue ul li {
+	font-size: small;
+}
+.container .entry-content #pg-442-1 #pgc-442-1-1 #panel-442-1-1-0 .origin-widget.origin-widget-list.origin-widget-list-simple-blue ul li {
+	color: #063;
+}
+.container .entry-content #pg-442-0 #pgc-442-0-0 #panel-442-0-0-1 .widget-title {
+	font-size: x-large;
+	font-family: "Times New Roman";
+	color: #00F;
+}
+.container .entry-content #pg-442-0 #pgc-442-0-0 #panel-442-0-0-1 .textwidget p {
+	font-size: medium;
+}
+.container .entry-content #pg-442-0 #pgc-442-0-0 #panel-442-0-0-1 .textwidget p {
+	font-size: large;
+	color: #639;
+}
+-->
+</style></head>
+
+<body bgcolor="#FFFFFF">
+
+<div class="container">
+
+<div id="home">
+<img src="ncp123 - Copy.jpg" width="364" height="167" alt="logo" longdesc="#" /> <span id="home"> AMD CAR SERVICE CENTER</span></div>
+
+
+
+<div class="moving"></div>
+
+<p>&nbsp;</p>
+<p>Download Mobile App</p>
+<img src="kaws.jpg" width="980" height="501" alt="App" />
+<p>&nbsp;</p>
+
+<br></br>
+<div class="entry-content">
+			<div class="panel-grid" id="pg-442-0" ><div class="panel-grid-cell" id="pgc-442-0-0" >
+			  <div class="panel widget widget_siteorigin-panels-image panel-first-child" id="panel-442-0-0-0"></div><div class="panel widget widget_text panel-last-child" id="panel-442-0-0-1"><h3 class="widget-title">AMD car service APP : Car Mechanic &#038; Repair</h3>			<div class="textwidget"><h1></h1>
+<p><b>Mobile App Description</b>: AMD car service App is developed to provide "Easy Search" to find nearest car repair shops, car mechanic and garages in India. The company is also helping car owners for 24x7 Roadside Assistance.</p>
+<b> Update Version 2.0:</b><br>
+1. Public Reviews : Likes/Favorite.<br>
+2. Categorization : Recommended, Verified Car Service Centers, Workshops, Mechanics and Repair Centres. <br>
+3. GPS Based Car Tyre Shops, Car Battery Shops and Nearest Petrol Pumps.<br>
+4. Hot Discount Deal Section to help car owners to SAVE.</div>
+		</div></div></div><div class="panel-grid" id="pg-442-1" ><div class="panel-grid-cell" id="pgc-442-1-0" ><style type="text/css" media="all">.origin-widget.origin-widget-list-simple-orange ul{margin:0;padding:0}.origin-widget.origin-widget-list-simple-orange ul li{list-style:url(http://www.mericar.com/car_service_center/wp-content/plugins/siteorigin-panels/widgets/img/checks/orange.png);line-height:2em;margin-left:24px;padding-left:6px}</style><div class="panel widget widget_origin_list panel-first-child panel-last-child" id="panel-442-1-0-0">
+		  <div class="origin-widget origin-widget-list origin-widget-list-simple-orange">
+		    <p>&nbsp;</p>
+		    <p>The search tool is using two options:	        </p>
+		    <ul>
+		      <li> Manual Search using city or keyword.</li>
+<li> GPS search to find nearest car mechanic and workshop.</li>
+</ul>
+<br></br>
+<h1>DOWNLOAD <b>FREE</b> MOBILE APP</h1>
+<p><a href="https://play.google.com/store/apps/details?id=com.mericar.user"><br />
+<img src="http://www.mericar.com/car_service_center/wp-content/uploads/2015/08/google_play_icon.png" border="0"><br />
+<br />Click here to Download Google Play App</a></p>
+</div></div></div><div class="panel-grid-cell" id="pgc-442-1-1" ><style type="text/css" media="all">.origin-widget.origin-widget-list-simple-blue ul{margin:0;padding:0}.origin-widget.origin-widget-list-simple-blue ul li{list-style:url(http://www.mericar.com/car_service_center/wp-content/plugins/siteorigin-panels/widgets/img/checks/blue.png);line-height:2em;margin-left:24px;padding-left:6px}</style><div class="panel widget widget_origin_list panel-first-child panel-last-child" id="panel-442-1-1-0"><div class="origin-widget origin-widget-list origin-widget-list-simple-blue"><h3 class="widget-title">The Benefit of this application are:</h3><ul>
+<li> Search and Call direct to car mechanic, repair shop anywhere in India.
+  <ul>
+    <li> Ask for Roadside Car Emergency Assistance anytime 24 hours 7 days.</li>
+  </ul>
+</li>
+<li></li>
+</ul>
+<p><a href="http://www.mericar.com/pay"><img src="http://www.mericar.com/car_service_center/wp-content/uploads/2015/08/banner.jpg" width="266" height="70" border="0"></a></p>
+</div></div></div></div>
+		<strong><br />
+  </strong></div>
+<br></br>
+
+<!-- end .content -->    </div>
+
+  <div class="footer">
+    <p><a href="http://mastro77.blogspot.in/" title="About Us">About Us</a> | Car Service Centers: Bangalore, Chennai, Delhi, Gurgaon, Mumbai, Pune | Press/Media</p>
+    <p>&copy; 2016 | AMD Private Ltd. | All terms are applicable</p>
+  </div>
+  <!-- end .container --></div>
+</body>
+</html>
